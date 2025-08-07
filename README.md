@@ -14,6 +14,7 @@ Common context to be included in all agentic sessions are centralized in the [`A
 | `CLAUDE.md` | Symlinked from AGENTS.md | Claude Code specific context |
 | `GEMINI.md` | Symlinked from AGENTS.md | Gemini CLI specific context |
 | `.github/copilot-instructions.md` | Symlinked from AGENTS.md | GitHub Copilot specific context |
+| `.cursor/rules/common.mdc` | Copied from AGENTS.md via `bin/cursor_rules.sh` | Cursor editor rules with required frontmatter |
 | `bin/` | Executable utility scripts | Direct execution of bash/Python utilities |
 | `prompts/` | Durable context files as Markdown | Reusable prompt templates and context |
 | `tasks/` | Ephemeral development task files | Temporary task documentation |
