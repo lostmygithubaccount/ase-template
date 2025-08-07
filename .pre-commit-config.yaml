@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: cursor-rules
+        name: Update Cursor Rules
+        entry: ./bin/cursor_rules.sh
+        language: system
+        files: ^AGENTS\.md$
+        pass_filenames: false
+      - id: check-lint-format
+        name: Run linting and formatting checks
+        entry: ./bin/check.sh
+        language: system
