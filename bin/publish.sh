@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Builds and publishes Python package to PyPI using uv
+
 set -euo pipefail
 
 # Check if PYPI_TOKEN environment variable is set

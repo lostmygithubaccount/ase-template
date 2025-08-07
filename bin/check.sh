@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This script runs all linting and formatting checks for the codebase
+# Runs linting and formatting checks for the codebase using ruff
 
 set -euo pipefail
 

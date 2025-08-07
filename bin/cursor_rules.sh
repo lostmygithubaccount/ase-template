@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# Copy AGENTS.md with Cursor frontmatter to .cursor/rules/common.mdc
-# This ensures Cursor has the required frontmatter while keeping AGENTS.md as the source of truth
+# Copies AGENTS.md to .cursor/rules/common.mdc with required Cursor frontmatter
 
 set -euo pipefail
 
