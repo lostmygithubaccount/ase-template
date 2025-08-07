@@ -23,3 +23,13 @@ Common context to be included in all agentic sessions are centralized in the [`A
 
 Standards are hard [obligatory xkcd here]. Nobody agrees on the files -- nor even the extension -- to use for their ASE tooling. So, over time we settled on the root agent context file with some additional structure.
 
+## Getting started
+
+Clone this repository, then:
+
+```bash
+./bin/setup.sh
+```
+
+This will install `uv` and setup pre-commit hooks.
+
